@@ -1,0 +1,245 @@
+.w{
+    width:1230px;
+    margin:0 auto;
+}
+/*banner开始*/
+.bannerBox{
+    width:100%;
+    height:620px;
+    position:relative;
+    overflow:hidden;
+}
+.imgList{
+    width:500%;
+    height:620px;
+    position: absolute;
+    left:0;
+    top:0;
+}
+.imgList li{
+    height:620px;
+    float:left;
+    width:20%;
+    overflow:hidden;
+    background:url("../images/banner01.jpg") center center no-repeat;
+}
+.imgList li a{
+    display:block;
+    height:620px;
+}
+.scrollBar{
+    position:absolute;
+    bottom:25px;
+    overflow: hidden;
+    zoom:1;
+    left:50%;
+    margin-left:-44px;
+}
+
+.scrollBar li{
+    width:11px;
+    height:11px;
+    background:#EDF6FD;
+    border:1px solid #EDF6FD;
+    float:left;
+    margin:5px;
+    border-radius:50%;
+    cursor: pointer;
+
+}
+.scrollBar li.current{
+    background:#BEBEBE;
+}
+/*banner结束*/
+/*我们的服务开始*/
+.wrapSever{
+    background:#F9F9F9;
+}
+.ourServer{
+    padding:60px 90px;
+}
+.derection{
+    padding:0 26px;
+}
+.derection h2{
+    font-size:24px;
+    color:#333;
+    text-align:center;
+    border-bottom:1px solid #CBCBCB;
+}
+.derection h2 span{
+    padding:0 22px;
+    background:#F9F9F9;
+    position:relative;
+    top:12px;
+}
+.severText{
+    margin-top:20px;
+    padding:0 106px;
+    text-align:center;
+    font-size:14px;
+    color:#666;
+    line-height:22px;
+
+}
+.severText span{
+    display: block;
+    line-height:28px;
+}
+.serverModel{
+    margin-top:40px;
+}
+.modelList li{
+    width:320px;
+    height:510px;
+    background:#fff;
+    float:left;
+    border:1px solid #E7E8E9;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    position:relative;
+}
+.modelList li img{
+    display:block;
+    margin:40px auto;
+}
+.modelList li h2{
+    font-size:24px;
+    color:#333;
+    text-align:center;
+}
+.modelList li p{
+    padding:15px 42px;
+    text-align:justify;
+    color:#666;
+    font-size:14px;
+    line-height:22px;
+}
+.btnBox{
+    position:absolute;
+    left:50%;
+    margin-left:-75px;
+    bottom:60px;
+}
+.btnBox a{
+    display:block;
+    width:150px;
+    height:38px;
+    color:#fff;
+    background:#FF9311;
+    border-radius:5px;
+    text-align: center;
+    line-height:38px;
+    font-size:14px;
+}
+.modelList li:nth-child(2){
+    margin:0 45px;
+}
+.shadow{
+    width:320px;
+    height:510px;
+    position:absolute;
+    left:0;
+    top:0;
+    background:#000;
+    opacity: .4;
+    filter:alpha(opacity=40);
+    display:none;
+}
+/*我们的服务结束*/
+/*经典案例开始*/
+.pd{
+    padding:0 116px;
+}
+.wrapCase{
+    background: #fff;
+}
+.w{
+    position:relative;
+}
+.classicCase{
+    padding:30px 90px 60px;
+}
+.caseItem{
+    width:324px;
+    height:211px;
+    float:left;
+    position:relative;
+}
+.caseItem a{
+    display:block;
+}
+.caseItem a img{
+    display:block;
+}
+.caseText{
+    width:304px;
+    height:45px;
+    background:rgba(0,0,0,.5);
+    position:absolute;
+    left:0;
+    bottom:0;
+    color:#fff;
+    font-size:14px;
+    line-height:45px;
+    text-align: center;
+    padding:0 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.caseList li div:nth-child(2){
+    margin:0 39px;
+}
+.leftBtn,.rightBtn{
+    width:60px;
+    height:60px;
+    position:absolute;
+    top:50%;
+    margin-top:-10px;
+    cursor:pointer;
+}
+.leftBtn{
+    background:url("../images/scrollBar2.png") no-repeat;
+    left:0;
+}
+.rightBtn{
+    background:url("../images/scrollBar1.png") no-repeat;
+    right:0;
+}
+/*经典案例结束*/
+/*合作媒体开始*/
+.wrapPartner{
+    background:#F9F9F9;
+    padding-bottom:200px;
+}
+.partner{
+    margin-top:50px;
+}
+.ptItem{
+    border-bottom:1px dashed #b3afaf;
+}
+.ptList .ptItem a{
+    width:20%;
+    height:80px;
+    float:left;
+    border-right:1px dashed #b3afaf;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    line-height:80px;
+}
+.ptItem a:nth-child(5){
+    border-right:0;
+}
+.ptList li div:last-child{
+    border-bottom:0;
+}
+.ptList li div a img{
+    vertical-align: middle;
+}
+/*合作媒体结束*/

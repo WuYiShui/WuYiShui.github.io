@@ -1,0 +1,106 @@
+.w{
+    width:1200px;
+    margin:0 auto;
+}
+.hand{
+    cursor:pointer;
+}
+/*头部开始*/
+.inHead{
+    height:100px;
+}
+.logo{
+    margin-top: 20px;
+    width: 245px;
+    height: 69px;
+    text-indent: -999px;
+    cursor: pointer;
+    background: url(../images/logo.png) no-repeat;
+    float:left;
+}
+.nav{
+    float:right;
+    height:100px;
+}
+.userSet h3{
+    color:#333;
+    font-size:12px;
+    line-height:34px;
+    padding:0 47px;
+    text-align: right;
+    cursor:pointer;
+    position:relative;
+}
+.drop{
+    position:absolute;
+    width:14px;
+    height:8px;
+    background:url("../images/r1.png") no-repeat;
+    right:27px;
+    top:50%;
+    margin-top:-4px;
+}
+.navList li{
+    float:left;
+    line-height:48px;
+}
+.navList li a{
+    display:block;
+    padding:0 20px;
+    font-size:16px;
+    color:#333;
+    position:relative;
+
+}
+.dropRight{
+    background:url("../images/r3.png") no-repeat;
+    right:2px;
+}
+.currentBlue{
+    color:#2288F6 !important;
+}
+/*头部结束*/
+/*尾部开始*/
+.footer{
+    background:#212325;
+}
+.inFooter{
+    height:120px;
+    padding-top:46px;
+}
+.linksList{
+    padding:0 220px;
+}
+.links{
+    float: left;
+    line-height:22px;
+}
+.phone{
+    float:right;
+    color:#888;
+    font-size:20px;
+    line-height:22px;
+}
+.phone span{
+    padding-left:35px;
+    display:inline;
+    line-height:22px;
+    background:url("../images/phoneBg.png") left center no-repeat;
+}
+.links a{
+    display:inline-block;
+    padding:0 15px;
+    color:#f0f1f1;
+    font-size:12px;
+}
+.links span{
+    color:#f0f1f1;
+}
+.copyRight{
+    margin-top:30px;
+    color:#f0f1f1;
+    text-align:center;
+    font-size:12px;
+    letter-spacing: 1px;
+}
+/*尾部结束*/

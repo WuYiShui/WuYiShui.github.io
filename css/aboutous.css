@@ -1,0 +1,117 @@
+.abtitle{
+    background:url("../images/absBanner.jpg") center center no-repeat;
+}
+.inTitle{
+    height:350px;
+}
+.abWrap{
+    width:100%;
+    height:81px;
+    padding-top:100px;
+}
+.showTitle{
+    width:318px;
+    height:81px;
+    background: url("../images/abTitle.png") no-repeat;
+    margin:0 auto;
+}
+/*content¿ªÊ¼*/
+.abContent{
+    background:#fafafa;
+}
+.inContent{
+    box-shadow: 0px 5px 5px 1px #ccc inset;
+    position: relative;
+    top:-120px;
+    background: #fafafa;
+}
+.company,.tellMe{
+    padding:64px 70px 0;
+}
+.derection{
+    padding:0 26px;
+}
+.derection h2{
+    font-size:24px;
+    color:#333;
+    text-align:center;
+    border-bottom:1px solid #CBCBCB;
+}
+.derection h2 span{
+    padding:0 22px;
+    background:#F9F9F9;
+    position:relative;
+    top:12px;
+}
+.abText{
+    text-align:center;
+    color:#666;
+    margin-top:15px;
+}
+.deText{
+    padding:30px 60px;
+}
+.deText p{
+    color:#666;
+    font-size:12px;
+    line-height:22px;
+    text-indent:20px;
+}
+.newList{
+    padding:0 60px;
+}
+.nList li{
+    width:196px;
+    height:186px;
+    float:left;
+    margin-right:50px;
+}
+.nList li:last-child{
+    margin-right: 0;
+}
+.nList li a{
+    display:block;
+}
+.nList li a img{
+    display:block;
+}
+.pd60{
+    padding:0 60px;
+}
+.address{
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.lg{
+    float:left;
+}
+.computer{
+    width:343px;
+    height:auto;
+    margin-right:50px;
+}
+.zb{
+    margin-bottom:20px;
+}
+.zb h3{
+    color:#333;
+    font-size:14px;
+    font-weight:bold;
+    height:30px;
+}
+.withPhone{
+    line-height:22px;
+    word-spacing: 2px;
+}
+.callPhone,.cmzb{
+    color:#333;
+    word-spacing: 2px;
+}
+.cmzb{
+    letter-spacing: 24px !important;
+}
+.call,.dczb{
+    font-sze:12px;
+    color:#666;
+    word-spacing: 2px;
+}
